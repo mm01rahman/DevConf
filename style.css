@@ -1,0 +1,42 @@
+
+*{
+margin : 0;
+padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin: 1% 10%;
+    align-items: center;
+}
+
+
+.middle_nav_bar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    column-gap: 10%;
+}
+
+.right_nav_bar {
+    font-weight: 700;
+    font-style: normal;
+    font-family: Inter;
+}
+
+.middle_nav_bar li {
+    color: #575757;
+    font-weight: 400;
+    font-family: Arimo;
+}
+
+.common_button {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 8px;
+}
