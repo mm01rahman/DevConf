@@ -464,3 +464,28 @@ nav {
     color:#374151;
     line-height:1.6;
 }
+
+
+footer {
+    height: 100px;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+footer p {
+    color: white;
+}
+
+.links  {
+    color: white;
+    display: flex;
+    gap: 30px;;
+} 
+
+.socials {
+    color: white;
+    display: flex;
+    gap: 20px;;
+}
