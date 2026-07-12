@@ -356,3 +356,111 @@ nav {
     background-color: #2563ebFF;
 }
 
+
+
+/* ===========================
+   Schedule Section
+=========================== */
+
+.schedule_section{
+    margin:120px auto;
+    padding:0 40px;
+}
+
+.schedule_header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.schedule_header h2{
+    font-family:Inter;
+    font-size:56px;
+    font-weight:700;
+    color:#0d1b2a;
+}
+
+.schedule_header p{
+    margin-top:12px;
+    font-family:Inter;
+    font-size:18px;
+    color:#6b7280;
+}
+
+.schedule_container{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+}
+
+/* Card */
+
+.schedule_card{
+    width:340px;
+    background:#ffffff;
+    border:1px solid #E5E7EB;
+    border-radius:14px;
+    overflow:hidden;
+    transition:.25s;
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
+
+.schedule_card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 35px rgba(0,0,0,.12);
+}
+
+/* Card Header */
+
+.schedule_card h3{
+    background:#2563EB;
+    color:#fff;
+    font-family:Inter;
+    font-size:28px;
+    font-weight:700;
+    text-align:center;
+    padding:18px;
+}
+
+.schedule_card h4{
+    text-align:center;
+    font-family:Inter;
+    font-size:18px;
+    font-weight:600;
+    color:#374151;
+    padding:22px 20px;
+    border-bottom:1px solid #E5E7EB;
+}
+
+/* Schedule Items */
+
+.schedule_item{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+    padding:18px 22px;
+    border-bottom:1px solid #F3F4F6;
+}
+
+.schedule_item:last-child{
+    border-bottom:none;
+}
+
+/* Time */
+
+.schedule_item span{
+    min-width:85px;
+    font-family:Inter;
+    font-size:15px;
+    font-weight:700;
+    color:#2563EB;
+}
+
+/* Session */
+
+.schedule_item p{
+    font-family:Inter;
+    font-size:15px;
+    color:#374151;
+    line-height:1.6;
+}
